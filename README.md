@@ -22,6 +22,9 @@ include it via `add_sub_directory` in your CMake project.
 You also need to turn on `c++17` support.
 
 - First, you need to make sure you have rust installed.
+```
+
+```
 - If you are cross-compiling make sure you install the necessary target in rust.
   For example, run `rustup target add aarch64-apple-ios` to install iOS target.
 - You can then link the library
