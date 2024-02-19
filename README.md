@@ -31,6 +31,8 @@ cargo --version
 rustup update
 // Install Additional Components
 rustup target add wasm32-unknown-unknown
+// Add to the existing Path
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
 ```
 - If you are cross-compiling make sure you install the necessary target in rust.
   For example, run `rustup target add aarch64-apple-ios` to install iOS target.
