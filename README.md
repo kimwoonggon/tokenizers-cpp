@@ -23,7 +23,14 @@ You also need to turn on `c++17` support.
 
 - First, you need to make sure you have rust installed.
 ```
-
+// Ubuntu
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+export PATH="$HOME/.cargo/bin:$PATH"
+rustc --version
+cargo --version
+rustup update
+// Install Additional Components
+rustup target add wasm32-unknown-unknown
 ```
 - If you are cross-compiling make sure you install the necessary target in rust.
   For example, run `rustup target add aarch64-apple-ios` to install iOS target.
