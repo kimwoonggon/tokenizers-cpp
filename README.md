@@ -33,6 +33,10 @@ rustup update
 rustup target add wasm32-unknown-unknown
 // Add to the existing Path
 echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+
+// Windows
+https://www.rust-lang.org/tools/install and rust_init.exe install
+
 ```
 - If you are cross-compiling make sure you install the necessary target in rust.
   For example, run `rustup target add aarch64-apple-ios` to install iOS target.
@@ -69,6 +73,7 @@ void SentencePieceTokenizerExample() {
   // call Decode to turn ids into string
   std::string decoded_prompt = tok->Decode(ids);
 }
+
 ```
 
 ### Extra Details
