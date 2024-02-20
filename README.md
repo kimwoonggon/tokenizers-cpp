@@ -36,6 +36,8 @@ echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
 
 // Windows
 https://www.rust-lang.org/tools/install and rust_init.exe install
+rustc --version
+cargo --version
 
 ```
 - If you are cross-compiling make sure you install the necessary target in rust.
